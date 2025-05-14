@@ -101,3 +101,49 @@ aside {
   background-size: cover;
 }
 
+@media (max-width: 768px) {
+  body{
+    overflow-x: hidden;
+  }
+
+  .animated-title {
+    font-size: 1.35rem; 
+    text-align: center; 
+    width: 60%; 
+  }
+  .row.d-flex.justify-content-between {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .col-md-2 {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+  
+  aside {
+    min-height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .dropdown-content {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60%;
+    height: 50%;
+    max-width: 300px;
+  }
+  
+  .gallery-img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+
+  .EfectotextoMovil {
+    font-size: 0.25rem;
+    text-align: center;
+  }
+}

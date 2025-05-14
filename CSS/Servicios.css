@@ -1,3 +1,13 @@
+.parallax {
+    min-height: 10rem;
+    width: 120rem;
+    background-image: url("../IMG/Imagenes Servicios/fondo_parallax.jpg");
+    filter: grayscale(0.4);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .imagen {
     overflow: visible;
     display: block;
@@ -38,5 +48,17 @@ h1 {
 @keyframes fadeIn {
     to {
         opacity: 1;
+    }
+}
+
+@media(max-width: 768px){
+
+   #movilColumna{
+        margin-bottom: 10%;
+        margin-left: 5%;
+    }
+
+    .imagen{
+        margin-bottom: 5%;
     }
 }

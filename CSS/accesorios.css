@@ -1,5 +1,5 @@
 .cabecera {
-    background-image: url("../IMG/Imagenes Servicios/img_fondo.png");
+    background-image: url("../IMG/Imagenes Servicios/fondo_parallax.jpg");
     filter: blur(3px);
     background-attachment: fixed;
     background-position: center;
@@ -80,4 +80,10 @@
     100% {
         border-color: beige;
     }
+}
+/*Movil*/
+@media (max-width: 768px) {
+     html, body {
+    overflow-x: hidden;
+  }
 }

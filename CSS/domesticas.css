@@ -52,6 +52,9 @@ aside {
 
 /*Móvil*/
 @media (max-width: 768px) { 
+  body{
+    overflow-x: hidden;
+  }
   .carousel-container {
     grid-template-columns: 1fr;
   }
