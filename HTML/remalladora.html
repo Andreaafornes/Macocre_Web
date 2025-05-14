@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="/CSS/remalladora.css">
+  <link rel="stylesheet" href="/CSS/estilos_comunes.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous">
+    </script>
+  <title>Remalladora</title>
+</head>
+
+<body style="background-color: white;">
+  <nav class="container-fluid d-none d-md-block col-md-12 d-md-block d-none "
+    style="height: 5rem; background-color:#884299cc; position: fixed; z-index:1;">
+    <ul class="nav nav-pills justify-content-center" style="margin-top: 1%; font-size: 20px;">
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="../index.html">Macocre S.L</a>
+      </li>
+      <li class="nav-item offset-2">
+        <a class="nav-link" aria-current="page" href="../index.html">Index</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="" role="button"
+          aria-expanded="false">Maquinaria</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item " href="/HTML/domesticas.html" style="color:purple">Domicilio</a></li>
+          <li><a class="dropdown-item" href="/HTML/industriales.html" style="color:purple">Industrial</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/HTML/Servicios.html">Servicios</a>
+      </li>
+    </ul>
+  </nav>
+  <!--Menu movil-->
+  <nav class="navbar navbar-light fixed-top d-md-none" style="background-color: #884299cc;">
+    <div class="container-fluid">
+      <a class="offset-1 navbar-brand" href="index.html">Macocre S.L</a>
+      <button class="navbar-toggler custom-toggler offset-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="box-shadow: none; outline: none;">
+        <span class="navbar-toggler-icon"></span>
+      </button>          
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Macocre S.L</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" style="background-color: #884299cc; color: #dfc2a0 m !important;">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false" role="button">Maquinaria</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item " href="HTML/domesticas.html" style="color:purple">Domicilio</a></li>
+                <li><a class="dropdown-item" href="#" style="color:purple">Industrial</a></li>
+            </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="HTML/Servicios.html">Servicios</a>
+            </li>  
+          </ul>
+          <div class="container-fluid justify-content-center end" style="margin-top: 25rem;">
+            <div class="col-10 offset-1">
+                <p><b style="font-size: 15px;">Contacto :</b></p>
+                <a href="tel:+34965174910" id="telefono" style="font-size: 15px;">(+34) 965 17 49 10 <a>
+            </div>
+            <iframe class="col-10 offset-1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3128.30055605173!2d-0.4970609999999999!3d38.365168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6236fa7bd5358d%3A0x4eb79b4d6aca4910!2sM%C3%A1quinas%20de%20Coser%20Macocre%20S.L.!5e0!3m2!1ses!2ses!4v1746603045002!5m2!1ses!2ses" style="margin-top: 10%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" target="_blank"></iframe>
+        </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid main-content">
+
+    <div class="row">
+      <div class="parallax d-flex justify-content-center">
+          <div class="row d-none d-md-block" style=" height: 25rem;">
+              <p class="Efectotexto d-flex col-md-12"> DOMÉSTICAS</p>
+          </div>
+          <div class="row d-md-none d-block" style="height:40rem;">
+            <p class=" EfectotextoMovil d-flex col-12"> DOMÉSTICAS</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <aside class="col-md-3 bg-light p-4 shadow-sm rounded-start d-flex flex-column align-items-center">
+        <h2 class="fs-4 mb-4 text-center">Tipos de máquinas</h2>
+        <div class="d-flex flex-column gap-3">
+          <div class="card p-3 text-center" style="width: 225px">
+            <a href="/HTML/costura.html" class="text-decoration-none text-dark">
+              <img src="/IMG/ICONOS/maquina costura.png" alt="Costura" class="mb-2" style="width: 70px; height: 70px;">
+              <h3 class="fs-5 m-0 text-center">Costura</h3>
+            </a>
+          </div>
+          <div class="card p-3 text-center" style="width: 225px;">
+            <a href="/HTML/bordado.html" class="text-decoration-none text-dark">
+              <img src="/IMG/ICONOS/maquina bordado.png" alt="Bordado" class="mb-2" style="width: 70px; height: 70px;">
+              <h3 class="fs-5 m-0 text-center">Bordado</h3>
+            </a>
+          </div>
+          <div class="card p-3 text-center" style="width: 225px;">
+            <a href="/HTML/remalladora.html" class="text-decoration-none text-dark">
+              <img src="/IMG/ICONOS/maquina-remalladora.png" alt="Remalladora" class="mb-2"
+                style="width: 70px; height: 70px;">
+              <h3 class="fs-5 m-0 text-center">Remalladora</h3>
+            </a>
+          </div>
+        </div>
+      </aside>
+
+      <main class="col-md-9 p-4">
+        <div class="container mt-3">
+          <h1 class="animated-title text-center">REMALLADORA</h1>
+          <div class="row d-flex justify-content-between">
+            <div class="col-md-2 mb-5 d-flex justify-content-center">
+              <div class="dropdown">
+                <img src="/IMG/MAQUINAS DOMÉSTICAS/REMALLADORA/husqvarna remalladora 1479.jpg" alt="Imagen 1"
+                  class="img-fluid gallery-img">
+                <div class="dropdown-content">
+                  <img src="/IMG/MAQUINAS DOMÉSTICAS/REMALLADORA/husqvarna remalladora 1479.jpg" alt="Imagen 1"
+                    width="300" height="200">
+                  <div class="desc">
+                    <h4>HUSQVARNA® VIKING® AMBER™ Air S | 400 Máquina overlock</h4>
+                    <p>Ofrece enhebrado neumático de loopers con un solo toque, facilitando su uso. Cuenta con
+                      enhebrador de agujas incorporado, alimentación diferencial para evitar estiramiento o fruncido de
+                      telas, iluminación LED, sistema de tensión fácil de usar, y ajustes personalizables de puntada,
+                      corte y presión. Además, permite coser con 4, 3 o 2 hilos, incluye 15 puntadas, tiene una altura
+                      extra de prensatelas para telas gruesas, y un sistema de seguridad que impide coser con la tapa
+                      abierta.</p>
+                    <h5>1479€</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mb-5 d-flex justify-content-center">
+              <div class="dropdown">
+                <img src="/IMG/MAQUINAS DOMÉSTICAS/REMALLADORA/husqvarna remalladora 3399.jpg" alt="Imagen 2"
+                  class="img-fluid gallery-img">
+                <div class="dropdown-content">
+                  <img src="/IMG/MAQUINAS DOMÉSTICAS/REMALLADORA/husqvarna remalladora 3399.jpg" alt="Imagen 2"
+                    width="300" height="200">
+                  <div class="desc">
+                    <h4>HUSQVARNA® VIKING® AMBER™ Air S | 600 Máquina Coverlock</h4>
+                    <p>Máquina avanzada con enhebrado electrónico de aire con solo un botón, pantalla táctil a color con
+                      ajustes automáticos y la función SEWING ADVISOR™ que recomienda configuraciones según el tipo de
+                      tela. Incluye 26 puntadas con capacidad para 5/4/3/2 hilos, control preciso del hilo, brazo libre,
+                      elevador de prensatelas manos libres, mesa de extensión, tensión automática, amplio espacio de
+                      trabajo, control de velocidad y alimentación diferencial para costuras perfectas.</p>
+                    <h5>3399€</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mb-5 d-flex justify-content-center">
+              <div class="dropdown">
+                <img src="/IMG/MAQUINAS DOMÉSTICAS/REMALLADORA/husqvarna remalladora 489.jpg" alt="Imagen 3"
+                  class="img-fluid gallery-img">
+                <div class="dropdown-content">
+                  <img src="/IMG/MAQUINAS DOMÉSTICAS/REMALLADORA/husqvarna remalladora 489.jpg" alt="Imagen 3"
+                    width="300" height="200">
+                  <div class="desc">
+                    <h4>Máquina overlock HUSQVARNA® VIKING® AMBER™ S | 100</h4>
+                    <p>máquina overlock con capacidad para 4, 3 y 2 hilos, ofreciendo 16 puntadas para acabados,
+                      costuras
+                      y bordes decorativos. Su diseño permite acceso total al área de enhebrado, facilitando su uso.
+                      Incluye alimentación diferencial para costuras uniformes, guía de costura integrada, iluminación
+                      LED, presión y tensiones ajustables, enhebrado codificado por colores, y viene preenhebrada lista
+                      para usar.</p>
+                    <h5>489€</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mb-5 d-flex justify-content-center">
+              <div class="dropdown">
+                <img src="/IMG/MAQUINAS DOMÉSTICAS/REMALLADORA/remalladora 1199.jpg" alt="Imagen 4"
+                  class="img-fluid gallery-img">
+                <div class="dropdown-content">
+                  <img src="/IMG/MAQUINAS DOMÉSTICAS/REMALLADORA/remalladora 1199.jpg" alt="Imagen 3" width="300"
+                    height="200">
+                  <div class="desc">
+                    <h4>PFAFF® coverlock™ 3.0 Máquina</h4>
+                    <p>Máquina versátil de 5 hilos ideal para proyectos exigentes y creativos. Ofrece 25 puntadas que
+                      incluyen overlock, cadeneta, coverstitch y flatlock. Permite trabajar con distintos tipos de
+                      tejidos
+                      gracias a su amplia zona de trabajo, sistema de enhebrado avanzado con codificación por colores, y
+                      ajustes precisos de longitud, ancho y avance diferencial. Con velocidad de hasta 1.100 puntadas
+                      por
+                      minuto y borde enrollado integrado, garantiza acabados rápidos y profesionales en todo tipo de
+                      proyectos.</p>
+                    <h5>1199€</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mb-5 d-flex justify-content-center">
+              <div class="dropdown">
+                <img src="/IMG/MAQUINAS DOMÉSTICAS/REMALLADORA/remalladora pffaf 2299.jpg" alt="Imagen 5"
+                  class="img-fluid gallery-img">
+                <div class="dropdown-content">
+                  <img src="/IMG/MAQUINAS DOMÉSTICAS/REMALLADORA/remalladora pffaf 2299.jpg" alt="Imagen 5" width="300"
+                    height="200">
+                  <div class="desc">
+                    <h4>PFAFF® admire™ air 6000 Máquina Coverlock</h4>
+                    <p>Máquina coverlock con enhebrado electrónico de aire de un solo toque, 23 puntadas con capacidad
+                      de
+                      5/4/3/2 hilos, y un selector de puntada con ajuste automático de tensión. Ofrece iluminación LED,
+                      brazo libre, mesa extensible, puntadas de recubrimiento y cadeneta, convertidor de 2 hilos, y
+                      ajustes precisos de largo de puntada, ancho de corte y presión. Su bastidor reforzado, potencia
+                      electrónica de perforación, y extras como el cortador de hilo integrado, almacenamiento para
+                      pinzas
+                      y tijeras, y guías para hilos decorativos la hacen potente, precisa y versátil.</p>
+                    <h5>2299€</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row d-flex justify-content-between">
+            <div class="col-md-2 mb-5 d-flex justify-content-center">
+              <div class="dropdown">
+                <img src="/IMG/MAQUINAS DOMÉSTICAS/REMALLADORA/remalladora pffaf 3299.jpg" alt="Imagen 6"
+                  class="img-fluid gallery-img">
+                <div class="dropdown-content">
+                  <img src="/IMG/MAQUINAS DOMÉSTICAS/REMALLADORA/remalladora pffaf 3299.jpg" alt="Imagen 5" width="300"
+                    height="200">
+                  <div class="desc">
+                    <h4>PFAFF® admire™ air 7000 Máquina Coverlock</h4>
+                    <p>Remalladora de alta gama con enhebrado neumático de un solo toque, pantalla táctil a color con
+                      ajustes automáticos, y una capacidad de 5/4/3/2 hilos con 26 puntadas. Incorpora brazo libre,
+                      elevador de prensatelas manos libres, iluminación LED excepcional, memoria para puntadas
+                      personalizadas, y un bastidor reforzado que aporta potencia y estabilidad. Además, ofrece un
+                      amplio
+                      espacio de costura y ajustes de precisión para una gran variedad de telas y técnicas.</p>
+                    <h5>3299€</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mb-5 d-flex justify-content-center">
+              <div class="dropdown">
+                <img src="/IMG/MAQUINAS DOMÉSTICAS/REMALLADORA/singer remalladora 389.jpg" alt="Imagen 6"
+                  class="img-fluid gallery-img">
+                <div class="dropdown-content">
+                  <img src="/IMG/MAQUINAS DOMÉSTICAS/REMALLADORA/singer remalladora 389.jpg" alt="Imagen 5" width="300"
+                    height="200">
+                  <div class="desc">
+                    <h4>SINGER® S0105 Serger</h4>
+                    <p>Máquina overlock que permite sobrehilar y cortar simultáneamente con capacidades de 4, 3 y 2
+                      hilos.
+                      Cuenta con una guía de colores y iluminación LED para facilitar el enhebrado. Ofrece una variedad
+                      de
+                      acabados como sobrehilado profesional, puntada de seguridad, sobrehilado plano, nublado herido,
+                      dobladillos enrollados, volantes, y pliegues, lo que la convierte en una herramienta versátil para
+                      proyectos de costura creativos.</p>
+                    <h5>389€</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mb-5 d-flex justify-content-center">
+              <div class="dropdown">
+                <img src="/IMG/MAQUINAS DOMÉSTICAS/REMALLADORA/singer remalladora 469.jpg" alt="Imagen 6"
+                  class="img-fluid gallery-img">
+                <div class="dropdown-content">
+                  <img src="/IMG/MAQUINAS DOMÉSTICAS/REMALLADORA/singer remalladora 469.jpg" alt="Imagen 5" width="300"
+                    height="200">
+                  <div class="desc">
+                    <h4>SINGER® SE017 Elite Serger</h4>
+                    <p>Máquina overlock potente y precisa con roscado Easy View™ que ilumina las vías de enhebrado. Su
+                      motor es un 20% más potente que las máquinas estándar, permitiendo coser hasta 1.300 puntadas por
+                      minuto. Con capacidad para 2, 3 y 4 hilos, ofrece una variedad de puntadas para tejidos gruesos y
+                      finos, con ajuste de presión del prensatelas y arrastre diferencial para evitar distorsiones.
+                      Incluye brazo libre, cuchilla superior móvil para técnicas especiales, y una bolsa de retales para
+                      mantener ordenada la zona de trabajo. Es ideal para dobladillos ciegos, enrollados, flatlocking y
+                      bordes sin rematar, convirtiéndola en una máquina versátil para proyectos creativos.</p>
+                    <h5>469€</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mb-5 d-flex justify-content-center">
+              <div class="dropdown">
+                <img src="/IMG/MAQUINAS DOMÉSTICAS/REMALLADORA/singer remalladora 489.jpg" alt="Imagen 6"
+                  class="img-fluid gallery-img">
+                <div class="dropdown-content">
+                  <img src="/IMG/MAQUINAS DOMÉSTICAS/REMALLADORA/singer remalladora 489.jpg" alt="Imagen 5" width="300"
+                    height="200">
+                  <div class="desc">
+                    <h4>SINGER® HD0405S Serger de alta resistencia</h4>
+                    <p>Máquina overlock de alta resistencia con bastidor metálico, ideal para telas gruesas. Su cuchilla
+                      grande corta con precisión y su enhebrado guiado por colores facilita su uso. Ofrece puntadas de
+                      2, 3 y 4 hilos, con ancho ajustable de 3 a 6,7 mm y velocidad de hasta 1.300 puntadas por minuto.
+                      Incluye transporte diferencial, brazo libre, accesorios integrados, iluminación LED y ajuste de
+                      presión del prensatelas, lo que la convierte en una máquina versátil y eficiente para proyectos
+                      grandes y pequeños.</p>
+                    <h5>489€</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mb-5 d-flex justify-content-center">
+              <div class="dropdown">
+                <img src="/IMG/MAQUINAS DOMÉSTICAS/REMALLADORA/singer remalladora 659.jpg" alt="Imagen 6"
+                  class="img-fluid gallery-img">
+                <div class="dropdown-content">
+                  <img src="/IMG/MAQUINAS DOMÉSTICAS/REMALLADORA/singer remalladora 659.jpg" alt="Imagen 5" width="300"
+                    height="200">
+                  <div class="desc">
+                    <h4>SINGER® Coverstitch 14T970</h4>
+                    <p>Máquina especializada en costuras de punto y tejidos elásticos, perfecta para acabados
+                      profesionales en ropa deportiva y lencería. Con una velocidad de hasta 1.300 puntadas por minuto,
+                      ofrece opciones de puntada como punto cadeneta doble, puntada de cobertura estrecha, ancha y
+                      triple puntada cubierta. Ideal para quienes buscan resultados de alta calidad en costuras planas
+                      overlock, es perfecta para proyectos creativos de costura en casa.</p>
+                    <h5>659€</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="container-fluid d-none d-md-flex justify-content-center "
+    style=" background-color:#6e3e7af8; padding: 2%;">
+        <iframe class="col-md-3 offset-1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3128.30055605173!2d-0.4970609999999999!3d38.365168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6236fa7bd5358d%3A0x4eb79b4d6aca4910!2sM%C3%A1quinas%20de%20Coser%20Macocre%20S.L.!5e0!3m2!1ses!2ses!4v1746603045002!5m2!1ses!2ses" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" target="_blank"></iframe>
+        <!-- Icono ubicacion
+        <a href="https://www.google.com/maps?ll=38.365168,-0.497061&z=15&t=m&hl=es&gl=ES&mapclient=embed&cid=5672173012502858000" id="ubicacion">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-geo-alt" viewBox="0 0 16 16">
+            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+          </svg>
+        </a>-->
+        <div class="offset-1 linea-vertical"></div>
+        <div class="col-md-3" style="align-content: center;">
+            <p><b>Contacto :</b> </p>
+            <a href="tel:+34965174910" id="telefono">(+34) 965 17 49 10 <a>
+        </div>
+    </footer>
+</body>
+
+
+</html>

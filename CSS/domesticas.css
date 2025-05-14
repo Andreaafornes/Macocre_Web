@@ -1,0 +1,64 @@
+.mb-4 {
+  margin-bottom: 20px;
+}
+
+aside {
+  height: auto;
+  min-height: calc(100vh - 80px - 160px);
+  overflow-y: auto;
+}
+
+
+.carousel-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto auto;
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.carousel-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-container img:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); 
+}
+
+
+.carousel-container img:nth-child(3) {
+  grid-column: 1 / span 2;
+  justify-self: center;
+}
+
+
+.parallax {
+  min-height: 10rem;
+  background-image: url("../IMG/Imagenes Servicios/fondo_parallax.jpg");
+  filter: grayscale(0.4);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*Móvil*/
+@media (max-width: 768px) { 
+  .carousel-container {
+    grid-template-columns: 1fr;
+  }
+
+  .carousel-container img:nth-child(3) {
+    grid-column: auto;
+  }
+}
+
+

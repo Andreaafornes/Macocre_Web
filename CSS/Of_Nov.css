@@ -1,0 +1,59 @@
+.parallax {
+    min-height: 10rem;
+    width: 120rem;
+    background-image: url("../IMG/Imagenes Servicios/fondo_parallax.jpg");
+    filter: grayscale(0.4);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 10%;
+}
+
+.apartados {
+    position: relative;
+    display: flex;
+}
+
+
+.texto {
+    color: purple;
+}
+
+.texto h2 {
+    font-weight: bold;
+}
+
+.img {
+    height: 20rem;
+    width: 20rem;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.box {
+    animation: change linear forwards;
+    animation-timeline: view();
+}
+
+/*Movil*/
+@media (max-width: 768px) {
+    .boxs {
+        animation: change 1s ease forwards;
+        animation-timeline: view();
+    }
+}
+
+@keyframes change {
+    0% {
+        scale: 0;
+        opacity: 0
+    }
+
+    50% {
+        scale: 1;
+        opacity: 1;
+    }
+}

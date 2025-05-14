@@ -1,0 +1,125 @@
+.parallax {
+  min-height: 30rem;
+  width: 120rem;
+  align-items: center;
+  background-image: url("../IMG/img_index/parallax_inicio.jpg");
+  filter: grayscale(0.7);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#informacion {
+  background-color:#f7e0c3d7;
+  filter: grayscale(0);
+  padding: 3%;
+  font-size: 15px;
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  height: 50%;
+}
+
+.Efectotexto {
+  /*width: 45%;*/
+  color: rgb(42, 42, 42);
+  font-size: 100px;
+  padding-top: 40%;
+  font-family: monospace;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: escribe 2.5s steps(30);
+}
+
+@keyframes escribe {
+  from {
+      width: 0;
+      opacity: 0%;
+  }
+
+  to {
+      width: 100;
+      opacity: 100%;
+  }
+}
+
+.animacionHover img:hover{
+  filter: hue-rotate(290deg);
+  opacity: 80%;
+}
+
+.imgTamaño{
+  height: 12rem;
+  margin-bottom: 6%;
+}
+
+.horario{
+  margin-top: 10%;
+
+}
+
+.celda-horario {
+  background-color: #884299cc !important;
+  color: #F7E0C3 !important;
+}
+
+.cerrado {
+  color: #ffdddd;
+  font-style: italic;
+}
+
+/*Movil*/
+@media (max-width: 768px) {
+
+  .horario-box {
+    padding: 2rem 1rem;
+  }
+  .horario-box h4 {
+    font-size: 1.5rem;
+  }
+  .horario-box td {
+    font-size: 0.95rem;
+  }
+
+  .parallax {
+    min-height: 40rem;
+    align-items: center;
+    width: 120rem;
+    background-image: url("../IMG/img_index/parallax_inicio.jpg");
+    filter: grayscale(0.7);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  #informacion {
+    background-color:#f7e0c3d7;
+    filter: grayscale(0);
+    padding: 12%;
+    font-size: 15px;
+    color:#000000;
+    font-weight: bold;
+  }
+
+  .imgTamaño{
+    height: 7.5rem;
+    margin-bottom: 5%;
+  }
+
+  #aliniacionMovil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10%;
+    margin-bottom: 5% ;
+  }
+
+  .imgTamaño:hover{
+    filter: grayscale(0.4);
+  }
+
+  .animacionHover:hover{
+    background-color:  #884299cc;
+  }
+}

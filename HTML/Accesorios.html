@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accesorios</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous">
+        </script>
+
+    <link rel="stylesheet" href="../CSS/accesorios.css">
+    <link rel="stylesheet" href="../CSS/estilos_comunes.css">
+</head>
+
+<body>
+    <nav class="container-fluid d-none d-md-block col-md-12 d-md-block d-none "
+        style="height: 5rem; background-color:#884299cc; position: fixed; z-index:1;">
+        <ul class="nav nav-pills justify-content-center" style="margin-top: 1%; font-size: 20px;">
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html">Macocre S.L</a>
+            </li>
+            <li class="nav-item offset-2">
+                <a class="nav-link" aria-current="page" href="../index.html">Index</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">Maquinaria</a>
+                <ul class="dropdown-menu">
+                    <li><a class="dropdown-item " href="domesticas.html" style="color:purple">Domicilio</a></li>
+                    <li><a class="dropdown-item" href="industriales.html" style="color:purple">Industrial</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Servicios.html">Servicios</a>
+            </li>
+        </ul>
+    </nav>
+    <!--Menu movil-->
+    <nav class="navbar navbar-light fixed-top d-md-none" style="background-color: #884299cc;">
+        <div class="container-fluid">
+            <a class="offset-1 navbar-brand" href="../index.html">Macocre S.L</a>
+            <button class="navbar-toggler custom-toggler offset-5" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar"
+                style="box-shadow: none; outline: none;">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Macocre S.L</h5>
+                    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                        aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body" style="background-color: #884299cc; color: #dfc2a0 m !important;">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+                                role="button">Maquinaria</a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item " href="domesticas.html"
+                                        style="color:purple">Domicilio</a></li>
+                                <li><a class="dropdown-item" href="industriales.html" style="color:purple">Industrial</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Servicios.html">Servicios</a>
+                        </li>
+                    </ul>
+                    <div class="container-fluid justify-content-center end" style="margin-top: 25rem;">
+                        <div class="col-10 offset-1">
+                            <p><b style="font-size: 15px;">Contacto :</b></p>
+                            <a href="tel:+34965174910" id="telefono" style="font-size: 15px;">(+34) 965 17 49 10 <a>
+                        </div>
+                        <iframe class="col-10 offset-1"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3128.30055605173!2d-0.4970609999999999!3d38.365168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6236fa7bd5358d%3A0x4eb79b4d6aca4910!2sM%C3%A1quinas%20de%20Coser%20Macocre%20S.L.!5e0!3m2!1ses!2ses!4v1746603045002!5m2!1ses!2ses"
+                            style="margin-top: 10%;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade" target="_blank"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="cabecera"></div>
+            <div class="offset-2 col-8 tituloAnimado">
+                <h1>ACCESORIOS</h1>
+                <span>
+                    <span>AGUJAS</span>
+                    <span>TIJERAS</span>
+                    <span>ZIPPY</span>
+                    <span>CUCHILLAS</span>
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="row col-md-12 d-md-flex justify-content-center md-auto" style="margin-top:4rem; margin-bottom:4rem">
+        <div id="lista" class="col-12 offset-md-1 col-md-5 mb-4 mt-4 ms-md-auto"
+            style=" margin-bottom:3rem;margin-top:3rem;">
+            <ul>
+                <li>Agujas de la afamada firma Croz-Beckert.</li>
+                <li>Tijeras y cortahilos con la garantía de KAI.</li>
+                <li>Cuchillas para corte, ojales y remayadoras.</li>
+                <li>Ancoras para todo tipo de maquinas.</li>
+                <li>Garfios Cerliani y Hirose Hook.</li>
+                <li>Placas de agujas y dientes de arrastre.</li>
+                <li>Embudos orilladores, ribeteadores de CF.Italia y Japoneses.</li>
+                <li>Accesorios para salas de corte y plancha.</li>
+                <li>Pullers y alimentadores Racing.</li>
+                <li>Zippy y dispensadores de etiquetas Profeel.</li>
+                <li>Etc.etc.etc</li>
+            </ul>
+        </div>
+        <div class="col-12 col-md-5 offset-md-1 mb-4 mt-4 ms-md-auto" style=" margin-bottom:3rem;margin-top:3rem;">
+            <img class="img-fluid w-85" src="../IMG/Imagenes Servicios/Icono Accesorios.png" alt="Imagen Accesorios">
+        </div>
+    </div>
+
+    <footer class="container-fluid d-none d-md-flex justify-content-between align-items-center py-4"
+    style="background-color:#6e3e7af8;">
+    
+    <div class="flex-grow-1 d-flex justify-content-end" style="margin-left: 40rem;">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3128.30055605173!2d-0.4970609999999999!3d38.365168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6236fa7bd5358d%3A0x4eb79b4d6aca4910!2sM%C3%A1quinas%20de%20Coser%20Macocre%20S.L.!5e0!3m2!1ses!2ses!4v1746603045002!5m2!1ses!2ses"
+            style="border:0; width: 150%;"
+            allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+    </div>
+
+    <!-- Línea + Contacto -->
+    <div class="d-flex align-items-center">
+        <div class="linea-vertical "></div>
+        <div class="text-start" style="margin-right: 50.5rem;">
+            <p><b>Contacto:</b></p>
+            <a href="tel:+34965174910" id="telefono" style="color: #f5d9c8;">(+34) 965 17 49 10</a>
+        </div>
+    </div>
+</footer>
+</body>
+
+</html>

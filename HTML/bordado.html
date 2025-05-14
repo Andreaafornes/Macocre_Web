@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+  <link rel="stylesheet" href="/CSS/remalladora.css">
+  <link rel="stylesheet" href="/CSS/estilos_comunes.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous">
+    </script>
+  <title>Bordado</title>
+</head>
+
+<body style="background-color: white;">
+  <nav class="container-fluid d-none d-md-block col-md-12 d-md-block d-none "
+    style="height: 5rem; background-color:#884299cc; position: fixed; z-index:1;">
+    <ul class="nav nav-pills justify-content-center" style="margin-top: 1%; font-size: 20px;">
+      <li class="nav-item">
+        <a class="nav-link" aria-current="page" href="../index.html">Macocre S.L</a>
+      </li>
+      <li class="nav-item offset-2">
+        <a class="nav-link" aria-current="page" href="../index.html">Index</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="" role="button"
+          aria-expanded="false">Maquinaria</a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item " href="/HTML/domesticas.html" style="color:purple">Domicilio</a></li>
+          <li><a class="dropdown-item" href="/HTML/industriales.html" style="color:purple">Industrial</a></li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="/HTML/Servicios.html">Servicios</a>
+      </li>
+    </ul>
+  </nav>
+  <!--Menu movil-->
+  <nav class="navbar navbar-light fixed-top d-md-none" style="background-color: #884299cc;">
+    <div class="container-fluid">
+      <a class="offset-1 navbar-brand" href="index.html">Macocre S.L</a>
+      <button class="navbar-toggler custom-toggler offset-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="box-shadow: none; outline: none;">
+        <span class="navbar-toggler-icon"></span>
+      </button>          
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Macocre S.L</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body" style="background-color: #884299cc; color: #dfc2a0 m !important;">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                aria-expanded="false" role="button">Maquinaria</a>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item " href="HTML/domesticas.html" style="color:purple">Domicilio</a></li>
+                <li><a class="dropdown-item" href="#" style="color:purple">Industrial</a></li>
+            </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="HTML/Servicios.html">Servicios</a>
+            </li>  
+          </ul>
+          <div class="container-fluid justify-content-center end" style="margin-top: 25rem;">
+            <div class="col-10 offset-1">
+                <p><b style="font-size: 15px;">Contacto :</b></p>
+                <a href="tel:+34965174910" id="telefono" style="font-size: 15px;">(+34) 965 17 49 10 <a>
+            </div>
+            <iframe class="col-10 offset-1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3128.30055605173!2d-0.4970609999999999!3d38.365168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6236fa7bd5358d%3A0x4eb79b4d6aca4910!2sM%C3%A1quinas%20de%20Coser%20Macocre%20S.L.!5e0!3m2!1ses!2ses!4v1746603045002!5m2!1ses!2ses" style="margin-top: 10%;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" target="_blank"></iframe>
+        </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container-fluid main-content">
+
+    <div class="row">
+      <div class="parallax d-flex justify-content-center">
+          <div class="row d-none d-md-block" style=" height: 25rem;">
+              <p class="Efectotexto d-flex col-md-12"> DOMÉSTICAS</p>
+          </div>
+          <div class="row d-md-none d-block" style="height:40rem;">
+            <p class=" EfectotextoMovil d-flex col-12"> DOMÉSTICAS</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <aside class="col-12 col-md-3 bg-light p-4 shadow-sm rounded-start d-flex flex-column align-items-center">
+        <h2 class="fs-4 mb-4 text-center">Tipos de máquinas</h2>
+        <div class="d-flex flex-column gap-3 w-100">
+          <div class="card p-3 text-center w-100">
+            <a href="/HTML/costura.html" class="text-decoration-none text-dark">
+              <img src="/IMG/ICONOS/maquina costura.png" alt="Costura" class="mb-2" style="width: 70px; height: 70px;">
+              <h3 class="fs-5 m-0">Costura</h3>
+            </a>
+          </div>
+          <div class="card p-3 text-center w-100">
+            <a href="/HTML/bordado.html" class="text-decoration-none text-dark">
+              <img src="/IMG/ICONOS/maquina bordado.png" alt="Bordado" class="mb-2" style="width: 70px; height: 70px;">
+              <h3 class="fs-5 m-0 text-center">Bordado</h3>
+            </a>
+          </div>
+          <div class="card p-3 text-center w-100">
+            <a href="/HTML/remalladora.html" class="text-decoration-none text-dark">
+              <img src="/IMG/ICONOS/maquina-remalladora.png" alt="Remalladora" class="mb-2"
+                style="width: 70px; height: 70px;">
+              <h3 class="fs-5 m-0 text-center">Remalladora</h3>
+            </a>
+          </div>
+        </div>
+      </aside>
+
+      <main class="col-md-9 p-4">
+        <div class="container mt-3">
+          <h1 class="animated-title text-center">BORDADO</h1>
+          <div class="row d-flex justify-content-between">
+            <div class="col-md-2 mb-5 d-flex justify-content-center">
+              <div class="dropdown">
+                <img src="/IMG/MAQUINAS DOMÉSTICAS/BORDADO/bordado pfaf 2529.jpg" alt="Imagen 1"
+                  class="img-fluid gallery-img">
+                <div class="dropdown-content">
+                  <img src="/IMG/MAQUINAS DOMÉSTICAS/BORDADO/bordado pfaf 2529.jpg" alt="Imagen 1"
+                    width="300" height="200">
+                  <div class="desc">
+                    <h4>Máquina de coser y bordar PFAFF® creative™ ambition™ 640<h4>
+                    <p>Máquina de coser y bordar versátil, ideal para crear diseños únicos con facilidad y precisión. Ofrece 150 puntadas, letras y símbolos, y una gran área de bordado de 240x150 mm. Incluye el software PREMIER+™ 2 Intro para iniciarse en el bordado. Su sistema Original IDT™ asegura una alimentación uniforme del tejido. Cuenta con cortahilos automático, enhebrador semiautomático, 29 posiciones de aguja y opción de aguja arriba/abajo. Además, permite escalar diseños hasta un 20% y bordar a alta velocidad sin perder calidad.</p>
+                    <h5>2529€</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mb-5 d-flex justify-content-center">
+              <div class="dropdown">
+                <img src="/IMG/MAQUINAS DOMÉSTICAS/BORDADO/bordado pfaff 16890.jpg" alt="Imagen 2"
+                  class="img-fluid gallery-img">
+                <div class="dropdown-content">
+                  <img src="/IMG/MAQUINAS DOMÉSTICAS/BORDADO/bordado pfaff 16890.jpg" alt="Imagen 2"
+                    width="300" height="200">
+                  <div class="desc">
+                    <h4>Máquina de coser y bordar PFAFF® creative icon™ 2</h4>
+                    <p>máquina más innovadora de PFAFF® integra inteligencia artificial que detecta el prensatelas adecuado según la puntada seleccionada. Su conectividad mySewnet™ permite transferencias inalámbricas entre dispositivos y actualizaciones automáticas. Incorpora un proyector que muestra puntadas o bordados sobre la tela para una colocación precisa. Cuenta con iluminación profesional, estructura antivibración y una potencia de aguja ideal para tejidos pesados. El sistema mejorado IDT™ asegura alimentación uniforme de todo tipo de telas. Incluye el bastidor de bordado más grande del mercado (360 x 350 mm). Su tecnología ActivStitch™ ajusta el hilo en función del grosor de la tela. Ofrece 806 puntadas decorativas exclusivas y funciones avanzadas como Stitch Creator™ y repetición de puntadas.</p>
+                    <h5>16890€</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mb-5 d-flex justify-content-center">
+              <div class="dropdown">
+                <img src="/IMG/MAQUINAS DOMÉSTICAS/BORDADO/pffaf bordado 3499.jpg" alt="Imagen 3"
+                  class="img-fluid gallery-img">
+                <div class="dropdown-content">
+                  <img src="/IMG/MAQUINAS DOMÉSTICAS/BORDADO/pffaf bordado 3499.jpg" alt="Imagen 3"
+                    width="300" height="200">
+                  <div class="desc">
+                    <h4>Máquina de coser y bordar PFAFF® creative™ 3.0</h4>
+                    <p>La PFAFF creative™ 3.0 es una máquina de coser y bordar avanzada ideal para proyectos creativos. Cuenta con pantalla táctil a color de 3,5", 157 diseños de bordado, 2 fuentes (en 3 tamaños), y gran área de bordado de 260x200 mm. Permite combinar diseños en pantalla, crear puntadas personalizadas con Stitch Creator™, y posicionar con precisión. Su sistema Original IDT™ asegura una alimentación uniforme, mientras que las luces LED y el amplio espacio de costura brindan comodidad. Ideal para diseñadores, quilters y entusiastas del bordado.</p>
+                    <h5>3499€</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mb-5 d-flex justify-content-center">
+              <div class="dropdown">
+                <img src="/IMG/MAQUINAS DOMÉSTICAS/BORDADO/husqvarna bordado 7490.jpg" alt="Imagen 4"
+                  class="img-fluid gallery-img">
+                <div class="dropdown-content">
+                  <img src="/IMG/MAQUINAS DOMÉSTICAS/BORDADO/husqvarna bordado 7490.jpg" alt="Imagen 4" width="300"
+                    height="200">
+                  <div class="desc">
+                    <h4>Máquina de coser y bordar HUSQVARNA® VIKING® DESIGNER SAPPHIRE™ 85</h4>
+                    <p>Máquina de coser y bordar avanzada con conectividad WiFi y acceso directo a la biblioteca de diseños mySewnet™. Incluye apps como QuickDesign™ y JoyOS ADVISOR™ con tutoriales interactivos y guías paso a paso. Su gran pantalla táctil de 8" ofrece navegación intuitiva y edición mediante gestos. El sistema de puntada deLuxe™ optimiza automáticamente los ajustes para todo tipo de hilos y tejidos. El exclusivo Sensor System™ ajusta el prensatelas según el grosor del tejido. Posee 680 puntadas incorporadas, incluidas técnicas exclusivas como puntadas pop-up, de lentejuelas y de apliques. Ideal para proyectos creativos complejos y personalizados. </p>
+                    <h5>7490€</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mb-5 d-flex justify-content-center">
+              <div class="dropdown">
+                <img src="/IMG/MAQUINAS DOMÉSTICAS/BORDADO/singer bordado 1599.jpg" alt="Imagen 5"
+                  class="img-fluid gallery-img">
+                <div class="dropdown-content">
+                  <img src="/IMG/MAQUINAS DOMÉSTICAS/BORDADO//singer bordado 1599.jpg" alt="Imagen 5" width="300"
+                    height="200">
+                  <div class="desc">
+                    <h4>SINGER® Legacy™ SE300 Máquina de coser y bordar</h4>
+                    <p>Máquina de coser y bordar versátil con 250 puntadas incorporadas y letras para crear y guardar secuencias personalizadas. Ofrece 13 estilos de ojal en un solo paso y funciones creativas como imagen en espejo y alargamiento. Cambia fácilmente al modo bordado con la unidad incluida, utilizando 200 diseños y 6 fuentes. Cuenta con memoria USB y software adicional para ampliar opciones. Ideal para personalizar y embellecer proyectos tanto de costura como de bordado. </p>
+                    <h5>1599€</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="row d-flex justify-content-between">
+            <div class="col-md-2 mb-5 d-flex justify-content-center">
+              <div class="dropdown">
+                <img src="/IMG/MAQUINAS DOMÉSTICAS/BORDADO/husqvarna bordado 4499.jpg" alt="Imagen 6"
+                  class="img-fluid gallery-img">
+                <div class="dropdown-content">
+                  <img src="/IMG/MAQUINAS DOMÉSTICAS/BORDADO/husqvarna bordado 4499.jpg" alt="Imagen 6" width="300"
+                    height="200">
+                  <div class="desc">
+                    <h4>Máquina de coser y bordar HUSQVARNA® VIKING® DESIGNER TOPAZ™ 50</h4>
+                    <p>Combina tecnología innovadora con capacidades creativas avanzadas. Su pantalla táctil a color permite editar y navegar intuitivamente. Ofrece posicionamiento de diseño preciso, actualizaciones por Internet y una amplia superficie de bordado y costura. Cuenta con 250 puntadas, funciones de edición y guardado, y tecnología SENSOR SYSTEM™ para alimentación perfecta. Incluye SEWING ADVISOR® para ajustes automáticos y corte de puntadas de salto. Ideal para transformar ideas en proyectos extraordinarios.</p>
+                    <h5>4399€</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mb-5 d-flex justify-content-center">
+              <div class="dropdown">
+                <img src="/IMG/MAQUINAS DOMÉSTICAS/BORDADO/bordado pfaff 1799.jpg" alt="Imagen 6"
+                  class="img-fluid gallery-img">
+                <div class="dropdown-content">
+                  <img src="/IMG/MAQUINAS DOMÉSTICAS/BORDADO/bordado pfaff 1799.jpg" alt="Imagen 6" width="300"
+                    height="200">
+                  <div class="desc">
+                    <h4>PFAFF® creative expect™ 350 Máquina de coser y bordar</h4>
+                    <p>Máquina moderna con pantalla táctil a color de 7", ideal para personalizar proyectos de costura y bordado. Ofrece conectividad WiFi con mySewnet™, lo que permite transferir diseños fácilmente. Incluye 180 diseños de bordado incorporados y 10 fuentes en tres tamaños. Su bastidor permite un área de bordado de hasta 170 x 100 mm. El control de esquina garantiza una colocación precisa del diseño. Puedes visualizar y editar directamente en pantalla antes de bordar. Permite programar secuencias de puntadas y letras decorativas. Las memorias integradas guardan tus combinaciones favoritas. Es ideal para quienes buscan creatividad y funcionalidad. Facilita una experiencia intuitiva y conectada para costureras modernas.</p>
+                    <h5>1799€</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mb-5 d-flex justify-content-center">
+              <div class="dropdown">
+                <img src="/IMG/MAQUINAS DOMÉSTICAS/BORDADO/husqvarna bordado 1799.jpg" alt="Imagen 7"
+                  class="img-fluid gallery-img">
+                <div class="dropdown-content">
+                  <img src="/IMG/MAQUINAS DOMÉSTICAS/BORDADO/husqvarna bordado 1799.jpg" alt="Imagen 7" width="300"
+                    height="200">
+                  <div class="desc">
+                    <h4>Máquina de coser y bordar HUSQVARNA® VIKING® DESIGNER QUARTZ™ 29</h4>
+                    <p>Máquina de coser y bordar que incluye 180 diseños de bordado personalizables, 10 fuentes de bordado en tres tamaños y dos bastidores (170 x 100 mm y 100 x 100 mm). Ofrece conectividad mySewnet para navegar entre dispositivos, acceder a una amplia biblioteca de diseños y almacenar archivos en la nube. La pantalla táctil de 7" permite ver información clara y precisa, y cuenta con 250 puntadas, además de cuatro fuentes de costura para personalizar proyectos. También incluye una guía de costura para ajustes óptimos.</p>
+                    <h5>1799€</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mb-5 d-flex justify-content-center">
+              <div class="dropdown">
+                <img src="/IMG/MAQUINAS DOMÉSTICAS/BORDADO/husqvarna bordado 1399.jpg" alt="Imagen 8"
+                  class="img-fluid gallery-img">
+                <div class="dropdown-content">
+                  <img src="/IMG/MAQUINAS DOMÉSTICAS/BORDADO/husqvarna bordado 1399.jpg" alt="Imagen 8" width="300"
+                    height="200">
+                  <div class="desc">
+                    <h4>Máquina de coser y bordar HUSQVARNA® VIKING® DESIGNER JADE™ 35</h4>
+                    <p>Máquina de coser y bordar que ofrece una gran área de bordado de hasta 240 x 150 mm (9½" x 6"), permitiendo crear diseños amplios sin la necesidad de volver a coser. Cuenta con la función exclusiva SEWING ADVISOR™, que ajusta automáticamente la máquina según el tipo de tejido y la técnica seleccionada, garantizando la mejor puntada, longitud, y tensión de hilo. Además, su alta velocidad de bordado asegura la finalización rápida y precisa de los proyectos. Con 200 mm de espacio de costura, es ideal para proyectos grandes como colchas, decoración del hogar o prendas de vestir. El software para PC Embroidery Intro incluido te permite personalizar, combinar diseños y crear monogramas, además de optimizar el número de cambios de hilo con la función inteligente Colorsort.</p>
+                    <h5>1399€</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 mb-5 d-flex justify-content-center">
+              <div class="dropdown">
+                <img src="/IMG/MAQUINAS DOMÉSTICAS/BORDADO/singer bordado 1349.jpg" alt="Imagen 9"
+                  class="img-fluid gallery-img">
+                <div class="dropdown-content">
+                  <img src="/IMG/MAQUINAS DOMÉSTICAS/BORDADO/singer bordado 1349.jpg" alt="Imagen 9" width="300"
+                    height="200">
+                  <div class="desc">
+                    <h4>SINGER® SE9185 Máquina de coser y bordar</h4>
+                    <p>Máquina de coser y bordar SE9185 ofrece más de 250 puntadas de costura, 150 diseños de bordado y 10 fuentes integradas, todo accesible en una pantalla táctil a color de 7". Su área de bordado es de hasta 170x100 mm, permitiendo crear proyectos amplios. El enhebrador automático de agujas facilita el proceso de costura. Con 165 mm de espacio de costura y 108 mm de altura, es ideal para proyectos grandes. Además, la conectividad WiFi mySewnet™ permite transferir diseños y supervisar el progreso del bordado de manera inalámbrica. También incluye 90 días de prueba gratuita del software de bordado, con acceso a más de 8.000 diseños. La máquina es perfecta para costureros de todos los niveles, combinando facilidad de uso y funcionalidades avanzadas.</p>
+                    <h5>1349€</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="container-fluid d-none d-md-flex justify-content-center "
+    style=" background-color:#6e3e7af8; padding: 2%;">
+        <iframe class="col-md-3 offset-1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3128.30055605173!2d-0.4970609999999999!3d38.365168!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6236fa7bd5358d%3A0x4eb79b4d6aca4910!2sM%C3%A1quinas%20de%20Coser%20Macocre%20S.L.!5e0!3m2!1ses!2ses!4v1746603045002!5m2!1ses!2ses" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" target="_blank"></iframe>
+        <!-- Icono ubicacion
+        <a href="https://www.google.com/maps?ll=38.365168,-0.497061&z=15&t=m&hl=es&gl=ES&mapclient=embed&cid=5672173012502858000" id="ubicacion">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="white" class="bi bi-geo-alt" viewBox="0 0 16 16">
+            <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10"/>
+            <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+          </svg>
+        </a>-->
+        <div class="offset-1 linea-vertical"></div>
+        <div class="col-md-3" style="align-content: center;">
+            <p><b>Contacto :</b> </p>
+            <a href="tel:+34965174910" id="telefono">(+34) 965 17 49 10 <a>
+        </div>
+    </footer>
+</body>
+
+
+</html>

@@ -1,0 +1,96 @@
+
+
+/*Header*/
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%23dfc2a0' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+  }
+   
+.nav-link,
+.dropdown-item {
+    text-decoration: none;
+    color: #F7E0C3 !important;
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+    color: purple !important;
+}
+
+.dropdown-toggle .nav-link,
+.dropdown-item {
+    text-decoration: none;
+    color: purple !important;
+}
+
+.dropdown-toggle .nav-link,
+.dropdown-item:hover {
+    background-color: #F7E0C3 !important;
+}
+
+nav ul {
+    list-style: none;
+}
+
+/*Footer*/
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.linea-vertical {
+    width: 0.1rem;
+    height: 10rem;
+    background-color:#F7E0C3;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  
+#telefono,b {
+    text-decoration: none;
+    padding: 1%;
+    color: #F7E0C3;
+}
+
+#telefono:hover{
+    background-color: #dfc2a0;
+    color:#884299cc;
+}
+
+/*Otras paginas*/
+
+.Efectotexto {
+    /*width: 45%;*/
+    color: rgb(42, 42, 42);
+    font-size: 90px;
+    padding-top: 25%;
+    font-family: monospace;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: escribe 2.5s steps(30);
+    
+}
+
+/*Movil*/
+.EfectotextoMovil {
+    /*width: 45%;*/
+    color: rgb(42, 42, 42);
+    font-size: 80px;
+    padding-top: 25%;
+    font-family: monospace;
+    overflow: hidden;
+    animation: escribe 2.5s steps(30);
+}
+
+@keyframes escribe {
+    from {
+        width: 0%;
+        opacity: 0%;
+    }
+
+    to {
+        width: 100%;
+        opacity: 100%;
+    }
+}
