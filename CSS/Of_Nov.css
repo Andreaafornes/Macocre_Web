@@ -33,16 +33,20 @@
     background-size: contain;
 }
 
-.box {
-    animation: change linear forwards;
-    animation-timeline: view();
-}
+
 
 /*Movil*/
 @media (max-width: 768px) {
-    .boxs {
-        animation: change 1s ease forwards;
-        animation-timeline: view();
+    .apartados {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    html,
+    body {
+        overflow-x: hidden;
     }
 }
 
