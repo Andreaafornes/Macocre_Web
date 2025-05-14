@@ -36,7 +36,7 @@
 
 
 /*Movil*/
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
     .apartados {
         margin-left: 0 !important;
         margin-right: 0 !important;
@@ -48,7 +48,7 @@
     body {
         overflow-x: hidden;
     }
-}
+}*/
 
 @keyframes change {
     0% {
