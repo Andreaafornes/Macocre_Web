@@ -63,6 +63,22 @@
     }
 }
 
+.parallax {
+    min-height: 10rem;
+    width: 120rem;
+    background-image: url("../IMG/Imagenes Servicios/fondo_parallax.jpg");
+    filter: grayscale(0.4);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax p{
+    margin-top: 20%;
+}
+
+
 #lista {
     list-style: radial-gradient(ellipse, beige, purple);
     border: 4px solid purple;
